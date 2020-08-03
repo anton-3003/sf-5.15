@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+	<title>A5.15</title>
+</head>
+<body>
+	<header>
+		<h1>Сказка "Курочка Ряба"</h1>
+	</header>
+	<main>
+		<div class="container">
+			<div class="row">
+				<form action="" class="form-group" id="ryaba">
+					<h4>var1</h4>
+					<input type="text" placeholder="Дед" class="form-control" id="var1" name="var1">
+					<h4>var2</h4>
+					<input type="text" placeholder="Бабка" class="form-control"id="var2" name="var2">
+					<h4>var3</h4>
+					<input type="text" placeholder="Курочка Ряба" class="form-control" id="var3" name="var3">
+					<h4>var4</h4>
+					<input type="text" placeholder="яйцо" class="form-control"id="var4" name="var4">
+					<h4>var5</h4>
+					<input type="text" placeholder="мышка" class="form-control" id="var5" name="var5">
+					<h4>var6</h4>
+					<input type="text" placeholder="хвостиком" class="form-control" id="var6" name="var6">
+					<h4>speach</h4>
+					<input type="text" placeholder="- Не плачь, дед, не плачь, баба: снесу вам яичко не золотое - простое!" class="form-control"id="speach" name="speach"><br>
+                    
+					<button type="button" class="btn btn-primary" id="create" onclick="createText()">Создать текст</button>
+					<button type="button" class="btn btn-success" id="change" >Заменить перемнные</button>
+				</form>
+			</div>
+			<div class="row">
+				<div id="text">
+					<p></p>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    	<script src="script/script.js"></script>	          
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</footer>
+</body>
+</html>
