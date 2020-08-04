@@ -10,7 +10,7 @@ let text = `
 	"- speach".
 			`;
 
-const message = document.getElementById("text"); //позиция текста на странице
+const message = document.getElementById("result"); //позиция текста на странице
 
 // очищение инпутов( в mozilla)
 
